@@ -29,4 +29,6 @@ print(f"Maximum calories carried by 1 elf: {max(sum_elf_calories)}")
 sum_elf_calories.sort()
 sum_elf_calories.reverse()
 sum_elf_calories = sum_elf_calories[0:3]
+
+# get the all sum of the top three
 print(f"Maximum calories carried by 3 elves: {sum(sum_elf_calories)}")
