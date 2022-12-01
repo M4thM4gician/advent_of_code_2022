@@ -24,11 +24,9 @@ sum_elf_calories = [sum(l) for l in elf_calories]
 
 # get the max of the all sums
 print(f"Maximum calories carried by 1 elf: {max(sum_elf_calories)}")
-# > 69501
 
 # inplace alterations to the list: sort ascending, reverse order, select top 3
 sum_elf_calories.sort()
 sum_elf_calories.reverse()
 sum_elf_calories = sum_elf_calories[0:3]
 print(f"Maximum calories carried by 3 elves: {sum(sum_elf_calories)}")
-# > 202346
